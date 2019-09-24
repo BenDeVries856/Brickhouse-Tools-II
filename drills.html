@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- Ben DeVries, October 6, 2016
+	index.html -->
+	
+<head>
+	<link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/table.css">
+	
+	<title>Brickhouse Tools</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="jquery-ui/jquery-ui.js"></script>
+	<script>
+		$(document).ready(function(){
+		
+			$( function() {
+				$( "#tabs" ).tabs();
+			});
+			
+			var state = 1;
+			$("#button-guarantee").on("click", function(){
+			  if(state == 0) {
+				$( "#effect" ).animate({
+				  backgroundColor: "black",
+				  color: "#fff",
+				}, 1000 );
+				state = 1;
+			}else if(state == 1){
+				$( "#effect" ).animate({
+				  backgroundColor: "white",
+				  color: "#000",
+				}, 1000 );
+				state = 2;
+			}else{
+				$( "#effect" ).animate({
+				  backgroundColor: "green",
+				  color: "#000",
+				}, 1000 );
+				state = 0;
+			  }
+			});
+			
+		});
+	</script>
+</head>
+<body>
+	<div id="container">
+	<header>
+		<!--header for the company logo-->
+		<div class="desktop">
+			<a href="index.html"><img src="images/banner.png" alt="Brickhouse Tools Logo"></a>
+		</div>
+		<div class="mobile">
+			<a href="index.html"><img src="images/mobilebanner.png" alt="Brickhouse Tools Logo"></a>
+		</div>
+	</header>
+	
+	<div id="nav">
+	<nav>
+		<a href="index.html">Home</a> &nbsp; &nbsp;
+		<a href="aboutus.html">About Us</a> &nbsp; &nbsp;
+		<a href ="drills.html">Drills</a> &nbsp; &nbsp;
+		<a href="contact.html">Contact Us</a>
+	</nav>
+	</div>
+	
+	<div id="content">
+	<main>
+	
+	<div id="tabs">
+	  <ul>
+		<li><a href="#tabs-1">Drills</a></li>
+		<li><a href="#tabs-2">Power Tools</a></li>
+	  </ul>
+	  <div id="tabs-1">
+		<h1>Drills</h1>
+		<table>
+			<caption>We have a drill to suit your every need!</caption>
+			<tr>
+				<th>Description</th>
+				<th>Weight</th>
+				<th>Price</th>
+				<th>Rating</th>
+			</tr>
+			
+			<tr>
+				<td>Brickhouse Tools Corded Drill</td>
+				<td>2.2 lbs</td>
+				<td>$159.99</td>
+				<td>5/5</td>
+			</tr>
+			
+			<tr>
+				<td>Brickhouse Tools Cordless Drill</td>
+				<td>2.1 lbs</td>
+				<td>$159.99</td>
+				<td>5/5</td>
+			</tr>
+			
+			<tr>
+				<td>Brickhouse Tools Corded Drill Light</td>
+				<td>1.6 lbs</td>
+				<td>$139.99</td>
+				<td>5/5</td>
+			</tr>
+			
+			<tr>
+				<td>Brickhouse Tools Cordless Drill Light</td>
+				<td>1.5 lbs</td>
+				<td>$139.99</td>
+				<td>5/5</td>
+			</tr>
+			
+			<tr>
+				<td>Brickhouse Tools Corded Hammer Drill</td>
+				<td>3.2 lbs</td>
+				<td>$169.99</td>
+				<td>5/5</td>
+			</tr>
+			
+			<tr>
+				<td>Brickhouse Tools Cordless Hammer Drill</td>
+				<td>3.0 lbs</td>
+				<td>$179.99</td>
+				<td>5/5</td>
+			</tr>
+			
+		</table>
+	  </div>
+	  <div id="tabs-2">
+		<h1>Power Tools</h1>
+			<table>
+			<caption>Browse our wide selection of quality drills</caption>
+			<tr>
+				<th>Description</th>
+				<th>Weight</th>
+				<th>Price</th>
+				<th>Rating</th>
+			</tr>
+			
+			<tr>
+				<td>Brickhouse Tools Grinder</td>
+				<td>1.8 lbs</td>
+				<td>$89.99</td>
+				<td>5/5</td>
+			</tr>
+			
+			<tr>
+				<td>Brickhouse Tools Sander</td>
+				<td>1.8 lbs</td>
+				<td>$89.99</td>
+				<td>4/5</td>
+			</tr>
+			
+		</table>
+	  </div>
+	</div>
+	
+	<div class="toggler">
+	  <div id="effect" >
+		<button id="button-guarantee" class="btn">Our Guarantee</button>
+		<p id="guarantee-p">
+		  Here at Brickhouse Tools we guarantee the best of quality drills for cheap prices and the most convenient shopping on the Web!
+		</p>
+	  </div>
+	</div>
+	
+	</main>
+
+	
+	<footer>
+		&copy; Copyright 2017. All Rights Reserved.<br>
+		Request Information<br>
+		Ben DeVries, c0681625.
+		<a href="mailto:brickhousetools@gmail.com">brickhousetools@gmail.com</a>
+	</footer>
+	</div>
+	</div>
+</body>
+</html>

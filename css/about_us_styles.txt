@@ -1,0 +1,378 @@
+/* Ben DeVries October 21, 2016, styles.css */
+
+#pager{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#slider {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.bx-wrapper img {
+    margin: 0 auto;
+    display: inline;
+    width: auto;
+}
+
+* {
+	font-family: "Tw Cen MT", Verdana, ariel, sans, serif;
+	font-size: 1.1em;
+}
+
+body {
+	background: #009999;
+}
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	background-color: #000000;
+	border-radius: 0.5em;
+	box-shadow: 4px 4px 10px #000000;
+	border: 2px solid #000000;
+	margin-top: 0.2em;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+header img {
+	width: 75%;
+}
+
+nav {
+	color: #a600ff;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+nav li {
+	background-color : #009933;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+main {
+	display: block;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #000000;
+	border: 2px solid #000000;
+	box-shadow: 4px 4px 10px #000000;
+	background-color: #000000;
+}
+
+h1 {
+	font-size: 1.75em;
+	color: #a600ff;
+}
+
+h2 {
+	font-size: 1.50em;
+	color: #ffffff;
+}
+
+h3 {
+	font-size: 1.25em;
+	color: #a600ff;
+}
+
+h5 {
+	font-size: 0.75em;
+}
+
+p {
+	color: #ffffff;
+}
+
+li {
+	color: #ffffff;
+}
+
+footer {
+	font-size: .90em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+ul {
+	margin-bottom: 50px;
+	list-style-position: inside;
+	text-decoration: none;
+}
+
+ul a {
+	list-style-type: none;
+	font-size: 1.25em;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	padding-bottom: 20px;
+}
+
+nav a:link {
+	color #a600ff;
+}
+
+nav a:hover {
+	color: #a600ff;
+}
+
+a:hover {
+	color: #a600ff;
+}
+
+article {
+	background-color: #000000;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+article section {
+	float: left;
+	font-size: 0.9em;
+}
+
+aside {
+	float: right;
+	padding: 5px;
+}
+
+section {
+	float: left;
+}
+
+aside img{
+	width: 200px;
+	height: 250px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 4px 4px 10px #000000;
+	border: 2px solid #ffffff;
+}
+
+#staff article{
+	margin-top: 30px;
+	border-top: 2px solid #ffffff;
+	padding: 0;
+}
+
+figure {
+	height: 25%;
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+}
+
+figure img {
+	background-color: #000000;
+	vertical-align: top;
+}
+	
+figure figcaption {
+	text-align: center;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+table {
+	font-size: 0.9em;
+}
+
+label {
+	color: #ffffff;
+} 
+
+input, select, textarea {
+	margin-bottom: 1em;
+	display: block;
+}
+
+fieldset {
+	color: #ffffff;
+	border-style: none;
+	display: inline;
+}
+
+fieldset:nth-child(odd){
+	border-left: 1px solid #ffffff;
+}
+
+#radio input {
+	display: inline;
+}
+
+#submit {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#submit  input{
+	display: inline;
+	text-align: center;
+}
+
+/*mobile*/
+@media only screen and (max-width: 737px){
+	
+.desktop {
+	display: none;
+}
+
+main {
+	overflow: auto;
+}
+	
+header {
+	text-align: center;
+	padding: 5px;
+}
+	
+img {
+	width: 100%;
+	height: auto;
+}
+	
+nav a {
+	background-color: #000000;
+	text-decoration: none;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px;
+}
+
+label {
+	width: 80%;
+}
+	
+}
+
+/*tablet*/
+@media only screen and  (min-width: 738px) {
+	
+.mobile {
+	display: none;
+}
+	
+nav {
+	background-color: #000000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 4px 4px 10px #000000;
+}
+
+nav ul {
+	margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+nav li {
+	border-radius: 0;
+	border-top: solid #ffffff;
+	border-bottom: solid #000000;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 20%;
+}
+
+nav  a {
+	font-size: 30px;;
+}
+
+main {
+	clear: left;
+	margin-top: 20px;
+	overflow: auto;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 0.7em;
+}
+
+}
+
+/*desktop*/
+@media only screen and (min-width: 1100px) {
+	
+#container {
+	width: 80%;
+}
+
+nav {
+	background-color: #000000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 4px 4px 10px #000000;
+}
+
+nav ul {
+	margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+nav li {
+	border-radius: 0;
+	border-top: solid #ffffff;
+	border-bottom: solid #000000;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 20%;
+}
+
+nav a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.2em;
+}
+
+main {
+	border-style: none;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	overflow: auto;
+}
+
+main p {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+}

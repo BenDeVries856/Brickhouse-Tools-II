@@ -1,0 +1,118 @@
+[
+	{
+		"name": "Joshua Homme",
+		"title": "Sales Manager",
+		"department": "Sales",
+		"image": "joshhommie.jpg"
+		"bio": "Joshua Michael Homme is an American singer, songwriter, musician, record producer, and actor. He is the founder and only continuous member of the rock band Queens of the Stone Age, in which he sings, plays guitar, as well as occasionally playing piano, drums, and bass. He also serves as the band's primary songwriter." +
+				"Homme was formerly a guitarist and founder of the stoner rock band Kyuss. He co-founded and occasionally performs with Eagles of Death Metal, playing drums and bass for their studio recordings, and produces a musical improv series with other musicians, mostly from the Palm Desert Scene, known as The Desert Sessions. In 2009, he formed a new project called Them Crooked Vultures with Dave Grohl and John Paul Jones, who released their debut album that same year. In 2016, he released Post Pop Depression, an album with Iggy Pop.[9] He has been involved with numerous other projects, including Arctic Monkeys and Biffy Clyro.";
+	},
+	{
+		"name": "John Petrucci",
+		"title": "Associate",
+		"department": "Sales",
+		"image": "johnpetrucci.jpg"
+		"bio": "John Peter Petrucci is an American virtuoso guitarist, composer and producer. He is best known as a founding member of the progressive metal band Dream Theater. With his former bandmate Mike Portnoy, he produced all Dream Theater albums from 1999's Metropolis Pt. 2: Scenes from a Memory to 2009's Black Clouds & Silver Linings. He has been the sole producer of the band's albums released since Portnoy's departure in 2010. Petrucci was named as the third player on the G3 tour seven times, more than any other invited guitarist. Joel McIver's 2009 book The 100 Greatest Metal Guitarists ranks Petrucci second, after Dave Mustaine.[1] He was also named as one of the "Top 10 Greatest Guitar Shredders of All Time" by GuitarOne magazine.[2] In 2012, Petrucci was ranked the 17th greatest guitarist of all time by a Guitar World magazine reader's poll.[3]";
+	},
+	{
+		"name": "Maynard Keenan",
+		"title": "Associate",
+		"department": "Sales",
+		"image": "maynardkeenan.jpg"
+		"bio": "Maynard James Keenan often referred to by his initials MJK, is an American singer, songwriter, musician, record producer, actor, and winemaker. He is best known as the vocalist for the rock bands Tool, A Perfect Circle, and Puscifer." +
+				"In addition to his music career, Keenan has ventured into fields such as acting, improvisational sketch comedy, and winemaking. He currently owns Merkin Vineyards and the associated winery Caduceus Cellars. Since rising to fame, he has been noted as being so private that he has been referred to as a recluse; however, he does emerge for the occasional interview and to support charitable causes.";
+	},
+	{
+		"name": "Tomas Haake",
+		"title": "Associate",
+		"department": "Sales",
+		"image": "dustiewaring.jpg"
+		"bio": "Tomas Haake is a Swedish drummer and main lyricist of the extreme metal band Meshuggah. He is known for his polyrhythms and technical ability.[1] In 2012, Haake was named the 5th best Modern Metal drummer by MetalSucks.net.[2] In the July 2008 edition of Modern Drummer magazine, Haake was named the number one drummer in the "Metal" category, as decided upon in the magazine's Readers' Poll.[3]";
+	},
+	{
+		"name": "Danny Carey",
+		"title": "IT Lead",
+		"department": "IT",
+		"image": "dannycarey.jpg"
+		"bio": "Daniel Edwin Carey is an American drummer and instrumentalist best known for his work in American Grammy Award-winning progressive metal band Tool. He has also contributed to albums by artists such as Zaum, Green Jellÿ, Pigface, Skinny Puppy, Adrian Belew of King Crimson, Carole King, Collide, The Wild Blue Yonder, Lusk, and the Melvins.";
+	},
+	{
+		"name": "Ross Jennings",
+		"title": "Programmer",
+		"department": "IT",
+		"image": "rossjennings.jpg"
+		"bio": "Haken was formed in 2007 by To-Mera guitarist and keyboardist Richard Henshall and his two school friends Ross Jennings (vocals) and Matthew Marshall (guitar).[2][3] The band completed their lineup with a keyboardist they met on an online forum, Peter Jones, Jones' close friend and drummer Raymond Hearne, and To-Mera guitarist Thomas MacLean became the band's bassist.[2] Henshall mentioned on some occasions that Haken was the name of a fictional character he and some friends came up with in their school days, under the influence of alcohol[1] or weed.[4]";
+	},
+	{
+		"name": "Misha Mansoor",
+		"title": "Programmer",
+		"department": "IT",
+		"image": "mishamansoor.jpg"
+		"bio": "Misha Mansoor also known as Bulb (the name of his solo project), is the founder and lead guitarist of the progressive metal band Periphery.[1][2] He is also part of the studio project Haunted Shores (featuring Periphery guitarist Mark Holcomb) and the hardcore punk project Snuggles (which features former Periphery bassist Adam "Nolly" Getgood), as well as being involved in the projects Of Man, Not Of Machine (a trio consisting of him, ex-TesseracT and ex-Sky Eats Airplane singer Elliot Coleman and Mark Holcomb) and Four Seconds Ago (an electronic project with his Periphery bandmate Jake Bowen). Mansoor is seen as one of the forerunners of the djent movement and is often erroneously attributed with the invention of the word itself (he attributes its invention to Meshuggah guitarist Fredrik Thordendal).";
+	},
+	{
+		"name": "Tosin Abassi",
+		"title": "IT Associate",
+		"department": "IT",
+		"image": "tosinabasi.jpg"
+		"bio": "Oluwatosin Ayoyinka Olumide Tosin Abasi is a Nigerian American musician, best known as the founder and lead guitarist of the instrumental progressive metal band Animals as Leaders. Before founding Animals as Leaders, he was the guitarist for the technical metalcore band Reflux.[1] He has recorded and released four albums with Animals as Leaders: a self-titled debut, Weightless, The Joy of Motion and their most recent album, The Madness of Many. Guitar World ranks Abasi at #97 on their list of 100 Greatest Guitarists of all time.";
+	},
+	{
+		"name": "Matt Garska",
+		"title": "Warehouse Associate",
+		"department": "Warehouse",
+		"image": "mattgarska.jpg"
+		"bio": "Animals as Leaders is an American instrumental band from Washington, D.C. It currently consists of guitarists Tosin Abasi and Javier Reyes and drummer Matt Garstka, having been formed by Abasi in 2007. They are a prominent band within the djent scene.[2] Prosthetic Records released the band's eponymous debut album in 2009. They went on to release the albums Weightless (2011), The Joy of Motion (2014), and The Madness of Many (2016).";
+	},
+	{
+		"name": "Mikael Åkerfeldt",
+		"title": "Warehouse Associate",
+		"department": "Warehouse",
+		"image": "mikaelakerfeldt.jpg"
+		"bio": "Lars Mikael Åkerfeldt is a Swedish musician, prominently known as the lead vocalist, guitarist, and primary songwriter of progressive death metal band Opeth, as well as being the former vocalist of death metal supergroup Bloodbath. He was also guitarist for the one-off band Steel, and is part of the collaboration Storm Corrosion with Steven Wilson." +
+				"Åkerfeldt is known for his progressive rock-influenced songwriting style and his frequent use of both clean baritone and growled vocals. Åkerfeldt was ranked #42 out of 100 Greatest Heavy Metal Guitarists of All Time by Guitar World along with Peter Lindgren,[2] and #11 among The Top 25 Modern Metal Guitarists on MetalSucks.[3]";
+	},
+	{
+		"name": "Steven Wilson",
+		"title": "Warehouse Associate",
+		"department": "Warehouse",
+		"image": "stevenwilson.jpg"
+		"bio": "Steven John Wilson is an English musician, singer, songwriter and record producer, most closely associated with the progressive rock genre. Currently a solo artist, he became known as the founder, lead guitarist, lead vocalist and songwriter of the band Porcupine Tree, as well as being a member of several other bands." +
+				"Wilson is a self-taught composer, producer, audio engineer, guitar and keyboard player, and plays other instruments as needed, including bass guitar, autoharp, hammered dulcimer and flute. Despite being mainly associated with progressive rock, his influences and work have encompassed a diverse range of genres including psychedelia, pop, extreme metal, electronic and jazz, among others, shifting his musical direction through his albums.[2] His concerts incorporate quadraphonic sound and elaborate visuals.[3] He has also worked with artists such as Opeth, King Crimson, Pendulum, Jethro Tull, Andy Partridge, Yes, Marillion, Tears for Fears, Roxy Music and Anathema." +
+				"In a career spanning more than 30 years, Wilson has made music prolifically and earned critical acclaim.[4] His honours include four nominations for the Grammy Awards, twice with Porcupine Tree, with his collaborative band Storm Corrosion and as a soloist on one occasion. In 2015, he received three awards at the Progressive Music Awards in London for his services to the genre, where he was crowned the king of prog rock.[5] Nevertheless, his work has largely stayed away from mainstream music, and he has been described by publications such as The Daily Telegraph as the most successful British artist you’ve never heard of.[6][7]";
+	},
+	{
+		"name": "Martín Méndez",
+		"title": "Lead Accountent",
+		"department": "Accounting",
+		"image": "martinmendez.jpg"
+		"bio": "Martín Méndez is the bass guitar player of progressive death metal band Opeth and second longest serving member of the band, behind lead vocalist, songwriter and guitarist Mikael Åkerfeldt." +
+				"Méndez has been a member of several other bands, including Fifth to Infinity, Proxima and Vinterkrig. Méndez joined Opeth right before the recording of their third album My Arms, Your Hearse began. However, time conflicts kept him from playing on the album, so the bass lines were recorded by Opeth frontman Mikael Åkerfeldt. Martín then learned the bass parts and played bass for the few subsequent live dates done for the album. His first real recording with Opeth was their fourth studio album, Still Life. He has been with the band ever since." +
+				"Méndez uses 4 string fretted & fretless Fender Jazz Basses as well as Sandberg basses for live and studio work. When playing songs from Ghost Reveries he uses Drop D tuning.";
+	},
+	{
+		"name": "Ian Thornley",
+		"title": "Accountent",
+		"department": "Accounting",
+		"image": "ianthornley.jpg"
+		"bio": "Born and raised in Toronto, Thornley studied jazz music at Boston's Berklee College of Music in the 1990s, and formed the band Big Wreck in 1993 with classmates David Henning, Brian Doherty, and Forrest Williams. They soon relocated from Boston to Toronto and eventually signed a US record deal with Atlantic Records. Their 1997 debut album, In Loving Memory Of..., was a significant hit that year on rock radio in both Canada and the United States. Big Wreck released a follow-up in 2001 called The Pleasure and the Greed, but went on to break up in 2002." +
+				"Thornley subsequently returned to Toronto, where he played as a session musician on albums by Nickelback, Sarah Harmer and Stephen Fearing before launching a new band, Thornley, who released their first album, Come Again, in 2004." +
+				"The follow-up record to Come Again, titled Tiny Pictures, was released in Canada on February 10, 2009 via 604 Records. The album was produced and mixed by Nick Raskulinecz.";
+	},
+	{
+		"name": "Troy Sanders",
+		"title": "Accountent",
+		"department": "Accounting",
+		"image": "troysanders.jpg"
+		"bio": "Sanders first played when he had picked up his older brother's bass and decided to try it out, even though the bass was strung for a lefty, and he was right-handed. A few months later, he had talked his dad into buying him a bass. He started first playing in such bands as Four Hour Fogger, Knuckle and Puaka Balava.[2] In 1995, Sanders joined the grindcore-band Social Infestation as the bass player. Social Infestation has released one EP and two full length albums. The band hasn't released any material since 2000 and are seemingly taking a long hiatus or the band has split.[3]" +
+				"In 2000, Sanders met Brann Dailor and Bill Kelliher along with Brent Hinds at a High on Fire show and later formed Mastodon. The four began a new musical venture with then singer Eric Saner, touring the southern USA, working 40-hour weeks and committing to the band in their spare time. The band's mainstream success would ensue after Saner left the band, pushing Sanders to the forefront not just as a bassist, but as a vocalist also, the duties of which he would share with Hinds.;"
+	},
+	{
+		"name": "Brent Hinds",
+		"title": "HR Rep",
+		"department": "Human Resources",
+		"image": "brenthinds.jpg"
+		"bio": "Brent Hinds is an American musician best known as a member of the Atlanta, Georgia metal band Mastodon, in which he shares guitar duties with Bill Kelliher and vocal duties with Troy Sanders and Brann Dailor." +
+				"Hinds is also lead guitarist/singer for the surfabilly band Fiend Without a Face, and is involved in other projects, including classic rock bands The Blood Vessels, West End Motel, Four Hour Fogger, The Last of the Blue Eyed Devils, Giraffe Tongue Orchestra, and Legend of the Seagullmen.";
+	}
+]

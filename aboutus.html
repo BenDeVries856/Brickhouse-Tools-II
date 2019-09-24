@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- Ben DeVries, October 6, 2016
+	index.html -->
+	
+<!--maps api key: AIzaSyA4oE9-E_E1Q71OY3Vq2R0MmW5c3r0O6ss-->
+	
+<head>
+	<link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<title>Brickhouse Tools</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="jquery-ui/jquery-ui.js"></script>
+	<!--<script async defer src=""https://maps.googleapis.com/maps/api/js?key=AIzaSyA4oE9-E_E1Q71OY3Vq2R0MmW5c3r0O6ss&callback=initMap" type="text/javascript"></script>-->
+	<!--<script src="js/employees.js" type="text/javascript"></script>-->
+	<script>
+		$(document).ready(function(){
+			$( function() {
+				$( "#accordion" ).accordion();
+			} );
+					
+		});
+		
+		function initialize() {
+            var latlng = new google.maps.LatLng(-18.9970979,26.9085996);
+            var myOptions = {
+                zoom: 8,
+                center: latlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("map"),
+			myOptions);
+			var marker = new google.maps.Marker({
+			  position: latlng,
+			  map: map
+			});
+        }
+		
+        var myKey = "AIzaSyA4oE9-E_E1Q71OY3Vq2R0MmW5c3r0O6ss";
+        function loadScript() {
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = "https://maps.googleapis.com/maps/api/js?key=" + myKey + "&sensor=false&callback=initialize";
+            document.body.appendChild(script);
+        }	
+		
+	</script>
+</head>
+<body onload="loadScript()">
+	<div id="container">
+	<header>
+		<!--header for the company logo-->
+		<div class="desktop">
+			<a href="index.html"><img src="images/banner.png" alt="Brickhouse Tools Logo"></a>
+		</div>
+		<div class="mobile">
+			<a href="index.html"><img src="images/mobilebanner.png" alt="Brickhouse Tools Logo"></a>
+		</div>
+	</header>
+	
+	<div id="nav">
+	<nav>
+		<a href="index.html">Home</a> &nbsp; &nbsp;
+		<a href="aboutus.html">About Us</a> &nbsp; &nbsp;
+		<a href ="drills.html">Drills</a> &nbsp; &nbsp;
+		<a href="contact.html">Contact Us</a>
+	</nav>
+
+	<div id="content">
+	<main>
+		<section>
+		<h1>About Us</h1>
+		<div id="accordion">
+			<h3>Company Overview</h3>
+			<p>
+				Brickhouse Tools was founded in early 2002, starting out as a basic drill
+				distribution store. Later on we realized that we could expand our 
+				business by going online. In 2004 Brickhouse Tools went all out, and
+				allocated all of its resources into building a website and switches to completely
+				online. Eventually Brickhouse Tools expanded to include others power tools
+				as well as the best drills on the planet. Today Brickhouse has expanded further
+				to produce its own brand name drills and power tools. Switching from a distribution
+				store to a supplier.
+			</p>
+			<h3>Who we are</h3>
+			<p>
+				Here at Brickhouse Tools we strive to put the customer first.
+				We keep our staff relatively small so that we can emphasize 
+				community and the importance of customer service.
+			</p>
+			<h3>Our Guarantee</h3>
+			<p>
+				Brickhouse Tools guarantees the best of quality drills for cheap prices
+				<b>and the most convenient drill shopping on the Web!</b>
+			</p>
+		</div>
+		
+		<br>
+		<p>Our Location:</p>
+		<center><div id="map"></div></center>
+		<br>
+		
+		<div id="staff">
+			<h3>Meet The Team</h3>
+			<p id="employees"></p>
+			
+			<article>
+			<section>
+				<p><b>Joshua Homme</b></p>
+				<p>Sales Manager</p>
+			</section>
+			<aside>
+				<img src="images/joshhomme.jpg" alt="Josh Homme" onclick="homme()">
+			</aside>
+			</article>
+			
+			<article>
+			<section>
+				<p><b>John Petrucci</b></p>
+				<p>Associate</p>
+			</section>
+			<aside>
+				<img src="images/johnpetrucci.jpg" alt="John Petrucci" onclick="petrucci()">
+			</aside>
+			</article>
+			
+			<article>
+			<section>
+				<p><b>Maynard Keenan</b></p>
+				<p>Associate</p>
+			</section>
+			<aside>
+				<img src="images/maynardkeenan.jpg" alt="Maynard Keenan" onclick="keenan()">
+			</aside>
+			</article>
+			
+		</div>
+		
+		</section>
+	</main>
+	
+	<footer>
+		&copy; Copyright 2017. All Rights Reserved.<br>
+		Request Information<br>
+		Ben DeVries, c0681625.
+		<a href="mailto:brickhousetools@gmail.com">brickhousetools@gmail.com</a>
+	</footer>
+	</div>
+	</div>
+	
+</body>
+</html>

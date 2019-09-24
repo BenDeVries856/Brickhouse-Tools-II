@@ -1,0 +1,106 @@
+/* Table Style Sheet for the Contact Page */
+
+caption {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+table, th {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	background-color: #000000;
+	border-collapse: collapse;
+	border: solid 0.15em #000000;
+}
+
+th {
+	background-color: #006699;
+	color: #ffffff;
+}
+
+td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+label {
+	float: left;
+	padding-right: 0.5em;
+	text-align: right;
+	width: 8em;
+}
+
+tr:nth-child(odd) {
+	background-color:#ffffff;
+}
+
+tr:nth-child(even){
+	background-color: #cccccc;
+}
+
+tr:hover {
+	background-color: #006699;
+	color: #ffffff;
+}
+
+tr td:last-of-type {
+	background-color: #ffffe6;
+	border: 0.15em solid #000000;
+}
+
+tr td:last-of-type {
+	color: #000000;
+}
+
+/*mobile*/
+@media only screen and (max-width: 717px){
+	
+.desktop{
+	display: none;
+}
+
+.mobile {
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #000000;
+	border-radius: 5px;
+	border: 0.2em solid #000000;
+}
+
+.mobile h4 {
+	color: #ff9900;
+	font-size: 1.5em;
+}
+
+.mobile li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.mobile li:hover{
+	color: #006699;
+}
+	
+}
+
+/*tablet*/
+@media only screen and (min-width: 718px){
+	
+.mobile {
+	display: none;
+}	
+
+}
+
+/*desktop*/
+@media only screen and (min-width: 1100px) {
+	
+.mobile{
+	display: none;
+}
+	
+)
+
